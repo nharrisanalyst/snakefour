@@ -1,0 +1,300 @@
+
+@media (max-width :320px){
+  #gameConsole{
+   position: relative;
+   left:0;
+    width: 315px;
+    height:568px;
+
+    margin-top: 10px;
+    box-shadow: inset -1px 1px 15px #333300;
+
+  }
+
+  .peice{
+    width:9px;
+    height: 9px;
+  }
+  .row{
+    height:9px;
+    line-height: 0;
+
+  }
+
+  #gameScreen{
+      width:296px;
+      height:188px;
+      background-color: yellow;
+      top:10px;
+
+
+    }
+
+    #restart{
+     margin-left: 15px;
+    }
+
+    #moveButtons{
+      ;
+      margin-right:8px;
+    }
+
+    #scores{
+      padding-top:55px;
+    }
+
+
+
+
+
+}
+
+
+
+@media  (min-width:321px) and (max-width:530px){
+  #gameConsole{
+
+    width: 315px;
+    height:568px;
+    box-shadow: -1px 1px 15px #333300,
+                 inset -1px 1px 15px #333300;
+    margin-top: 10px;
+
+  }
+
+  .peice{
+    width:9px;
+    height: 9px;
+  }
+  .row{
+    height:9px;
+    line-height: 0;
+
+  }
+
+  #gameScreen{
+      width:296px;
+      height:188px;
+      background-color: yellow;
+      top:10px;
+
+
+    }
+
+    #restart{
+     margin-left: 15px;
+    }
+
+    #moveButtons{
+      ;
+      margin-right:8px;
+    }
+
+    #scores{
+      padding-top:55px;
+    }
+
+
+}
+
+@media (min-width:530px){
+  #gameConsole{
+    width: 515px;
+    height:650px;
+    box-shadow: -2px 2px 15px #333300,
+                  inset -1px 1px 15px #333300;
+    margin-top: 15px;
+  }
+    .peice{
+      width:15px;
+      height: 15px;
+    }
+    .row{
+      height:15px;
+
+    }
+    #gameScreen{
+        width:488px;
+        height:308px;
+
+        top:10px;
+
+      }
+
+  #restart{
+    margin-left: 50px;
+  }
+
+  #moveButtons{
+
+    margin-right:20px;
+  }
+
+  #scores{
+    padding-top:25px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.peice{
+
+  display: inline-block;
+}
+
+
+
+#restart{
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border-radius: 100px;
+
+  -webkit-box-shadow:
+    -2px 2px 0px #754444,
+    inset 0 0 10px #754444;
+  -moz-box-shadow:
+    -2px 2px 0px #754444,
+    inset 0 0 10px #754444;
+  -o-box-shadow:
+    -2px 2px 0px #754444,
+    inset 0 0 10px #754444;
+  box-shadow:
+    -2px 2px 0px #754444,
+    inset 0 0 10px #754444;
+  text-align:center;
+  vertical-align:middle;
+  line-height: 80px;
+  font-family: 'Orbitron', sans-serif;
+   display:inline-block;
+  float:left;
+
+  margin-top: 0px;
+   border:1px black;
+}
+#gameConsole{
+  margin-left:auto;
+  margin-right:auto;
+  background-color: yellow;
+
+  border-radius: 15px;
+
+
+
+}
+
+body{
+ background-color: lightgrey;
+
+}
+
+#gameScreen{
+
+
+    border:4px solid #7f7f00;
+
+   margin: auto;
+    position: relative;
+
+
+    background-color: #d5e8b7;
+
+}
+
+.controlls{
+ width: 50px;
+ height: 50px;
+ background-color:#6666ff;
+ border-radius: 100px;
+ text-align:center;
+ vertical-align:middle;
+ line-height: 50px;
+
+ -webkit-box-shadow:
+   -2px 2px 0px #000080,
+   inset 0 0 10px #000080;
+ -moz-box-shadow:
+   -2px 2px 0px #000080,
+   inset 0 0 10px #000080;
+ -o-box-shadow:
+   -2px 2px 0px #000080,
+   inset 0 0 10px #000080;
+ box-shadow:
+   -2px 2px 0px #000080,
+   inset 0 0 10px #000080;
+ font-family: 'Orbitron', sans-serif;
+
+
+}
+
+#left{
+    display:inline-block;
+}
+#right{
+    display:inline-block;
+}
+
+#moveButtons{
+  width: 150px;
+  height:150px;
+  float:right;
+
+}
+
+#up{
+  margin:auto;
+}
+#down{
+  margin:auto;
+}
+#buttonFill{
+   width: 50px;
+   height:33px;
+   background-color: yellow;
+   display:inline-block;
+   border-radius: 100px;
+   vertical-align:middle;
+   line-height: 50px;
+
+
+
+}
+
+#controller{
+  padding-top:50px;
+}
+
+#gameFood{
+  border-radius:3px
+}
+
+#scores{
+
+  font-family: 'Orbitron', sans-serif;
+  clear: both;
+  line-height: 1.4;
+}
+
+#snakeTitle{
+  font-size: 35px;
+  line-height: 1.4;
+}
+
+#nameTitle{
+  text-decoration: underline;
+  line-height: 1.4;
+}
